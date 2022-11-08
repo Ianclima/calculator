@@ -1,0 +1,38 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #233329, #41b883);
+}
+
+.calculator{
+    display: flex;
+    width: 220px;
+    height: 245px;
+    border:1px solid black;
+    background-color: black;
+}
+
+.screen{
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    border:1px solid black;
+}
+
+#display{
+    background-color:white;
+    
+}
+
+button{
+    width: 50px;
+    height: 60px;
+    border-radius: 20px;
+    border-color: black;
+   
+}
